@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crab Island Girl</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff9f6;
+      color: #2b2b2b;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    header {
+      background: linear-gradient(to right, #ffb3ba, #ffd6a5, #cdb4db, #a0e7e5);
+      padding: 18px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    nav {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      font-weight: bold;
+      font-size: 0.95rem;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px 60px;
+      background: linear-gradient(to bottom, #fff4ee, #ffffff);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      color: #e46772;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      max-width: 760px;
+      margin: 0 auto 30px;
+      font-size: 1.1rem;
+    }
+
+    .hero-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 14px 24px;
+      border-radius: 999px;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    .btn-primary {
+      background: #49b9c6;
+      color: white;
+    }
+
+    .btn-secondary {
+      background: #fbb04c;
+      color: white;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-bottom: 16px;
+      color: #e46772;
+      font-size: 2rem;
+    }
+
+    .section-intro {
+      text-align: center;
+      max-width: 760px;
+      margin: 0 auto 40px;
+    }
+
+    .button-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 18px;
+    }
+
+    .pill {
+      padding: 18px;
+      border-radius: 999px;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    .pink { background: #e46772; }
+    .coral { background: #f4a7a0; }
+    .lavender { background: #c9a0dc; }
+    .turquoise { background: #49b9c6; }
+    .seafoam { background: #7fdbda; color: #2b2b2b; }
+    .gold { background: #fbb04c; }
+
+    .feature-boxes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+      margin-top: 30px;
+    }
+
+    .box {
+      background: white;
+      border-radius: 18px;
+      padding: 24px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+
+    .box h3 {
+      color: #49b9c6;
+      margin-bottom: 12px;
+    }
+
+    footer {
+      background: #2f2a24;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      margin: 6px 0;
+    }
+
+    @media (max-width: 700px) {
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+
+      nav {
+        margin-top: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Crab Island Girl</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Crab Island</a>
+      <a href="#">Boat Rentals</a>
+      <a href="#">Dolphin Cruises</a>
+      <a href="#">Girls Getaways</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Crab Island starts here</h1>
+    <p>
+      Welcome to Destin y’all! Your guide to the best of Crab Island, boat days, dolphin cruises,
+      brunch, beach plans, and girls’ getaway fun along the Emerald Coast.
+    </p>
+    <div class="hero-buttons">
+      <a href="#" class="btn btn-primary">Book Activities</a>
+      <a href="#" class="btn btn-secondary">Plan Your Trip</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Pick your main event</h2>
+    <p class="section-intro">
+      The water is clear, the boats are calling, and the best decisions start with a boat and a captain.
+      Start with your vibe, then build the rest of your Destin trip around it.
+    </p>
+
+    <div class="button-grid">
+      <a href="#" class="pill pink">Boats with a Captain</a>
+      <a href="#" class="pill turquoise">Boat Rentals</a>
+      <a href="#" class="pill lavender">Crab Island Tours</a>
+      <a href="#" class="pill gold">Dolphin Cruises</a>
+      <a href="#" class="pill coral">Parasailing</a>
+      <a href="#" class="pill seafoam">Family Fun</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Why book with Crab Island Girl?</h2>
+    <div class="feature-boxes">
+      <div class="box">
+        <h3>Local recommendations</h3>
+        <p>
+          Get personalized ideas for boat days, brunch spots, nightlife, beach setups, and the best things
+          to do around Destin and Crab Island.
+        </p>
+      </div>
+
+      <div class="box">
+        <h3>Made for real trips</h3>
+        <p>
+          Whether you’re planning a bachelorette party, girls’ getaway, family beach trip, or a last-minute
+          day on the water, this is your shortcut to the fun part.
+        </p>
+      </div>
+
+      <div class="box">
+        <h3>Easy trip planning</h3>
+        <p>
+          Browse activities, compare options, and start building a Destin trip that actually fits your group,
+          your budget, and your vibe.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Destin, Crab Island, and beyond</h2>
+    <p class="section-intro">
+      From Crab Island boat charters to dolphin cruises, beach days, shopping, seafood, brunch, and sunset plans,
+      Crab Island Girl helps you make the most of your time on the Emerald Coast.
+    </p>
+  </section>
+
+  <footer>
+    <p><strong>Crab Island Girl</strong></p>
+    <p>Your coastal connection</p>
+    <p>Destin, Florida</p>
+  </footer>
+
+</body>
+</html>
